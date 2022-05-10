@@ -1,0 +1,48 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-size: 1rem;
+}
+
+.text-decoration-none {
+  text-decoration: none !important;
+}
+
+.cursor_pointer {
+  cursor: pointer;
+}
+
+svg.MuiSvgIcon-root {
+  font-size: 1rem !important;
+}
+
+.icons-loading {
+  width: 45px;
+}
+
+.loadingScreen {
+  position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+  background-color: rgba(192, 192, 192, 0.2);
+  top: 0;
+  left: 0;
+}
+/*# sourceMappingURL=style.css.map */
